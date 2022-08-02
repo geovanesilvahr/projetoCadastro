@@ -3,17 +3,12 @@
     {
       "id": 1,
       "name": "Sansumg S20+",
-      "price": "2354"
+      "price": "3200"
     },
     {
-      "name": "Geladeira Brastemp 25L",
+      "name": "Geladeira Brastemp 35L",
       "price": "4230",
       "id": 2
-    },
-    {
-      "id": 3,
-      "name": "teste",
-      "price": "23"
     }
   ]
 }
