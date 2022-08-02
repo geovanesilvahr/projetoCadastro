@@ -1,29 +1,19 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Caneta BIC Preta",
-      "price": "4.98"
-    },
-    {
-      "id": "3",
+      "id": 1,
       "name": "Sansumg S20+",
       "price": "2354"
     },
     {
       "name": "Geladeira Brastemp 25L",
       "price": "4230",
-      "id": "4"
+      "id": 2
     },
     {
-      "name": "qweqweqwe",
-      "price": "231",
-      "id": "JeWnwQE"
-    },
-    {
-      "name": "Teste",
-      "price": "5.48",
-      "id": "Vdk4fBc"
+      "id": 3,
+      "name": "teste",
+      "price": "23"
     }
   ]
 }
