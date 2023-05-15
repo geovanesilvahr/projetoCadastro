@@ -10,10 +10,25 @@ import { Router } from '@angular/router';
 })
 export class ProductCreateComponent implements OnInit {
 
+  dataAtual = new Date();
+  dia = this.dataAtual.getDate();
+  mes = this.dataAtual.getMonth() + 1;
+  ano = this.dataAtual.getFullYear();
+
+  date = `${this.dia}/${this.mes}/${this.ano}`
+
   product: Product = {
     id: 0,
     name: '',
-    price: 0.0
+    price: 0.0,
+    description: '',
+    category: '',
+    unit: '',
+    image: '',
+    stock: 0,
+    supplier: '',
+    expiration_date: '',
+    update_date: ''
   }
 
   constructor(private productService: ProductService,

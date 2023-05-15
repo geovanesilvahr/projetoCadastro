@@ -1,4 +1,3 @@
-import { Router } from '@angular/router';
 import { ProductService } from './../product.service';
 import { Product } from './../product.model';
 import { Component, OnInit } from '@angular/core';
@@ -11,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductReadComponent implements OnInit {
   
   products: Product[] = []
-  displayedColumns = ['id','name','price','action']
+  displayedColumns = ['id','name','price','description','category','unit','stock','supplier','expiration_date','update_date','action']
 
   constructor(private productService: ProductService) { }
 

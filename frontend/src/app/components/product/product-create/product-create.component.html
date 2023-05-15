@@ -7,6 +7,27 @@
         <mat-form-field>
             <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
         </mat-form-field>
+        <mat-form-field>
+            <input matInput laceholder="Descrição" [(ngModel)]="product.description" name="description">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Categoria" [(ngModel)]="product.category" name="category">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Unidade de Medida" [(ngModel)]="product.unit" name="unit">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Quantidade em Estoque" [(ngModel)]="product.stock" name="stock">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Fornecedor" [(ngModel)]="product.supplier" name="supplier">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Data de Validade" [(ngModel)]="product.expiration_date" name="expiration_date">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ultima Atualização" [(ngModel)]="product.update_date" name="update_date">
+        </mat-form-field>
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
         Salvar
