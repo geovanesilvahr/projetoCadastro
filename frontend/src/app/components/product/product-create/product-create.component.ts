@@ -20,15 +20,15 @@ export class ProductCreateComponent implements OnInit {
   product: Product = {
     id: 0,
     name: '',
-    price: 0.0,
+    price: 0,
     description: '',
-    category: '',
-    unit: '',
-    image: '',
+    manufactorer: '',
     stock: 0,
-    supplier: '',
-    expiration_date: '',
-    update_date: ''
+    weight: 0,
+    category: '',
+    status: '',
+    validity: '',
+    image: ''
   }
 
   constructor(private productService: ProductService,

@@ -17,7 +17,7 @@ export class ProductDeleteComponent implements OnInit {
     private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    const id = +this.route.snapshot.paramMap.get('id')!
+    const id = + this.route.snapshot.paramMap.get('id')!
     this.productService.readById(id).subscribe(product => {
       this.product = product
     })
@@ -28,7 +28,6 @@ export class ProductDeleteComponent implements OnInit {
       this.productService.showMessage("Produto Excluido!");
       this.router.navigate(["/products"])
     })
-
   }
 
   cancel(): void {

@@ -1,19 +1,16 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Sansumg S20+",
+      "price": "3300",
+      "description": "Celular Samsung Galaxy S20+"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 6,
+      "name": "Teclado Gamer",
+      "price": "250.00",
+      "description": "Teclado Gamer Mecânico "
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

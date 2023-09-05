@@ -8,25 +8,22 @@
             <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
         </mat-form-field>
         <mat-form-field>
-            <input matInput laceholder="Descrição" [(ngModel)]="product.description" name="description">
-        </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Categoria" [(ngModel)]="product.category" name="category">
-        </mat-form-field>
-        <mat-form-field>
-            <input matInput placeholder="Unidade de Medida" [(ngModel)]="product.unit" name="unit">
+            <input matInput placeholder="Fornecedor" [(ngModel)]="product.manufactorer" name="manufactorer">
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Quantidade em Estoque" [(ngModel)]="product.stock" name="stock">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Fornecedor" [(ngModel)]="product.supplier" name="supplier">
+            <input matInput placeholder="Peso (Kg)" [(ngModel)]="product.weight" name="weight">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Data de Validade" [(ngModel)]="product.expiration_date" name="expiration_date">
+            <input matInput placeholder="Categoria" [(ngModel)]="product.category" name="category">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Ultima Atualização" [(ngModel)]="product.update_date" name="update_date">
+            <input matInput placeholder="Status" [(ngModel)]="product.status" name="status">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Validade" [(ngModel)]="product.validity" name="validity">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
