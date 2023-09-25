@@ -1,16 +1,17 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Sansumg S20+",
-      "price": "3300",
-      "description": "Celular Samsung Galaxy S20+"
-    },
-    {
-      "id": 6,
-      "name": "Teclado Gamer",
-      "price": "250.00",
-      "description": "Teclado Gamer Mecânico "
+      "id": 7,
+      "name": "Notebook DELL",
+      "price": "10000",
+      "description": "",
+      "manufactorer": "João Maria",
+      "stock": "100",
+      "weight": "1.6",
+      "category": "Eletroeletronico",
+      "status": "Ativo",
+      "validity": "Indefinido",
+      "image": ""
     }
   ]
 }
