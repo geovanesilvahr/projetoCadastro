@@ -23,7 +23,7 @@
             <input matInput placeholder="Status" [(ngModel)]="product.status" name="status">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Validade" [(ngModel)]="product.validity" name="validity">
+            <input matInput placeholder="Validade" type="date" [(ngModel)]="product.validity" name="validity">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">

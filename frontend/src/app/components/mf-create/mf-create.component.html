@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>Novo Fornecedor</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="CNPJ" name="cnpj">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereço" name="endereço">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Telefone" name="telefone">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Email" name="email">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createManufactorer()">
+        Adicionar
+    </button>
+
+
+</mat-card>

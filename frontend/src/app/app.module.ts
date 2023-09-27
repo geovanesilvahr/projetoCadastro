@@ -29,6 +29,11 @@ import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ManufactorerCrudComponent } from './views/manufactorer-crud/manufactorer-crud.component';
+import { MfCreateComponent } from './components/mf-create/mf-create.component';
+import { MfReadComponent } from './components/mf-read/mf-read.component';
+import { MfDeleteComponent } from './components/mf-delete/mf-delete.component';
+import { MfUpdateComponent } from './components/mf-update/mf-update.component';
 
 registerLocaleData(localePt);
 
@@ -43,7 +48,12 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+    ManufactorerCrudComponent,
+    MfCreateComponent,
+    MfReadComponent,
+    MfDeleteComponent,
+    MfUpdateComponent
   ],
   imports: [
     BrowserModule,
