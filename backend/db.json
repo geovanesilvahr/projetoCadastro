@@ -1,3 +1,13 @@
 {
-
+  "products": [],
+  "manufactors": [
+    {
+      "id": 1,
+      "cnpj": "123123123123",
+      "name": "Geovane",
+      "endereco": "rua dos bobos, 0",
+      "telefone": "123123123123",
+      "email": "email@email.com"
+    }
+  ]
 }

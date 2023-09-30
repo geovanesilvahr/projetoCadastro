@@ -14,7 +14,7 @@ export class MfCreateComponent implements OnInit {
     id: 0,
     cnpj: '',
     name: '',
-    endereço: '',
+    endereco: '',
     telefone: '',
     email: ''
   }

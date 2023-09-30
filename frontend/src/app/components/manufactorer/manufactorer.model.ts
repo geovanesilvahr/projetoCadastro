@@ -2,7 +2,7 @@ export class Manufactorer {
     id?: number = 0;
     cnpj: string = '';
     name: string = '';
-    endereço: string = '';
+    endereco: string = '';
     telefone: string = '';
     email: string = '';
 }

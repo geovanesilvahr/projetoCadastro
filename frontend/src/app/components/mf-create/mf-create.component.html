@@ -2,19 +2,19 @@
     <mat-card-title>Novo Fornecedor</mat-card-title>
     <form>
         <mat-form-field>
-            <input matInput placeholder="Nome" name="name">
+            <input matInput placeholder="Nome" [(ngModel)]="manufac.name" name="name">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="CNPJ" name="cnpj">
+            <input matInput placeholder="CNPJ" [(ngModel)]="manufac.cnpj" name="cnpj">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Endereço" name="endereço">
+            <input matInput placeholder="Endereço" [(ngModel)]="manufac.endereco" name="endereco">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Telefone" name="telefone">
+            <input matInput placeholder="Telefone" [(ngModel)]="manufac.telefone" name="telefone">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Email" name="email">
+            <input matInput placeholder="Email" [(ngModel)]="manufac.email" name="email">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="createManufactorer()">

@@ -8,6 +8,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ManufactorerCrudComponent } from './views/manufactorer-crud/manufactorer-crud.component';
 import { MfCreateComponent } from './components/mf-create/mf-create.component';
+import { MfUpdateComponent } from './components/mf-update/mf-update.component';
+import { MfDeleteComponent } from './components/mf-delete/mf-delete.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -16,7 +18,9 @@ const routes: Routes = [
   { path: "products/update/:id", component: ProductUpdateComponent},
   { path: "products/delete/:id", component: ProductDeleteComponent},
   { path: "manufactorer", component: ManufactorerCrudComponent },
-  { path: "manufactorer/create", component: MfCreateComponent}
+  { path: "manufactorer/create", component: MfCreateComponent},
+  { path: "manufactorer/update/:id", component: MfUpdateComponent },
+  { path: "manufactorer/delete/:id", component: MfDeleteComponent }
 ];
 
 @NgModule({
